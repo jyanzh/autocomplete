@@ -35,3 +35,18 @@ This is an algorithm that
   4. This is then sent back to the GUI where it can be seen.
   
   
+**Sample Test Cases:**
+
+* Train: She sells seashells by the sea-shore.
+* Input: sh ---> she (1), shore (1),
+* Input: s ----> sea (1), seashells (1), sells (1), she (1), shore (1), 
+
+* Train: Rudolph the red-nosed reindeer rose rapidly into the air.
+* Input: t ----> the (2),
+* Input: s ----> rapidly (1), red (1), reindeer (1), rose (1), rudolph (1),
+
+* Train: The thankful tiger thanks you for taking thanksgiving to the tiny trap
+* Input: th ---> the (2), thankful (1), thanks (1), thanksgiving (1), 
+* Input: ti ---> tiger (1), tiny (1), 
+
+
