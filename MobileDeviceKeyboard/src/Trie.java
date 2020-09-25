@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/*	a Trie that will store all the words inputed
- * 
+/* 
+ * a Trie that will store all the words inputed
  * Author: James Zhou
  * */
 public class Trie {
