@@ -46,18 +46,17 @@ public class AutocompleteProvider {
 	}
 	
 	//returns a string of all the candidates in order of confidence
-    public String getSuggestions(String input) {
-    	String temp = "";
-    	List<Candidate> words = getWords(input);
-    	int i = 0;
-    	temp = "";
+	public String getSuggestions(String input) {
+    		String temp = "";
+    		List<Candidate> words = getWords(input);
+    		int i = 0;
     	
-    	while (i < words.size()) {
+    		while (i < words.size()) {
 			temp = temp +words.get(i).toString()+ ", ";
 			i++;
 		}
     	
-    	return temp;
-    }
+    		return temp;
+    	}
 
 }
