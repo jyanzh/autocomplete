@@ -29,7 +29,7 @@ public class AutocompleteProvider {
 		//using a regular expression to put all the words into a list
 		Matcher m = Pattern.compile("[a-zA-z]+").matcher(passage);
 		while (m.find()) {
-		  allMatches.add(m.group().toLowerCase());
+		  	allMatches.add(m.group().toLowerCase());
 		}
 		
 		//inserts all the words found into the trie
