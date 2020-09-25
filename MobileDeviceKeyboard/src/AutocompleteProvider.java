@@ -13,13 +13,11 @@ import java.util.regex.Pattern;
 
 public class AutocompleteProvider {
 	private ArrayList<Candidate> output;
-	private ArrayList<String> temp;
 	private Trie root = new Trie();
 	
 	//constructor
 	public AutocompleteProvider() {
 		output = new ArrayList<Candidate>();
-		temp = new ArrayList<String>();
 	}
 	
 	//trains the algorithm with the provided passage
