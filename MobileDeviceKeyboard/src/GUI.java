@@ -45,11 +45,11 @@ public class GUI{
 		suggestionsAll = new JTextField();
 		//inputText.addActionListener(updateText());
 		
-        //buttons
+        	//buttons
 		calculate = new JButton("Suggest");
 		calculate.addActionListener(suggest());
 	
-        //creating the panel
+        	//creating the panel
 		JPanel panel = new JPanel();
 		panel.setBorder(BorderFactory.createEmptyBorder(30,30,10,30));
 		panel.setLayout(new GridLayout(0, 1));
