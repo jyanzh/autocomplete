@@ -1,10 +1,12 @@
-**AutoComplete**
+# **AutoComplete**
+______________________________________
 
 This is an algorithm that 
  * analyzes the passages typed by the user.
  * Suggests a set of candidates of autocompleted words given the word fragment
 
- **How to Build and Run**
+ ## **How to Build and Run**
+______________________________________
  
  The executable, `autoComplete.jar` is packaged with a .jar file. The Java SE Development Kit will be required to run the file.
  
@@ -17,7 +19,8 @@ This is an algorithm that
   
   
   
- **How the Program Works**
+ ## **How the Program Works**
+______________________________________
  
   For this program, I figured a Trie would be the best data structure as its branches allow the easiest access to all similar words that branch from that word. 
  
@@ -35,7 +38,8 @@ This is an algorithm that
   4. This is then sent back to the GUI where it can be seen.
   
   
-**Sample Test Cases:**
+## **Sample Test Cases:**
+______________________________________
 
 * Train: She sells seashells by the sea-shore.
 * Input: sh ---> she (1), shore (1),
