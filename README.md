@@ -8,7 +8,7 @@ This is an algorithm that
  ## **How to Build and Run**
 ______________________________________
  
- The executable, `autoComplete.jar` is packaged with a .jar file. The Java SE Development Kit will be required to run the file.
+ The executable, `autoComplete.jar` is packaged with a .jar file. The [Java SE Development Kit](https://www.oracle.com/java/technologies/downloads/#jdk17-windows) will be required to run the file.
  
  **Testing**
   The executable features a very simple gui with three textboxes and a button
